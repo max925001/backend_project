@@ -94,7 +94,7 @@ userSchema.methods.generateRefreshToken = function(){
     return jwt.sign({
         _id:this._id,
     
-        //ye data milega hai payload me
+       // ishme data kam rhta hai
     },
     process.env.REFRESH_TOKEN_SECRET,
     {
