@@ -78,7 +78,7 @@ userSchema.methods.generateAccessToken = function(){
     email:this.email,
     username:this.username,
     fullName:this.fullName
-    //ye data milega hai payload me
+    //ye data milega  payload me
 },
 process.env.ACCESS_TOKEN_SECRET,
 {
